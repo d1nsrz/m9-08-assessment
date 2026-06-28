@@ -1,0 +1,42 @@
+{
+  "_comment": "Mock flight data for the Trip Concierge Agent",
+  "aliases": {
+    "LONDON":               "LHR",
+    "LONDONHEATHROW":       "LHR",
+    "LONDONGATWICK":        "LGW",
+    "PARIS":                "CDG",
+    "PARISCHARLESDEGAULLE": "CDG",
+    "MADRID":               "MAD",
+    "LISBON":               "LIS",
+    "PORTO":                "OPO",
+    "AMSTERDAM":            "AMS",
+    "BERLIN":               "BER",
+    "ROME":                 "FCO"
+  },
+  "routes": {
+    "LHR-OPO": [
+      { "airline": "British Airways",    "flight_number": "BA0504", "price": 149, "duration": "2h 15m" },
+      { "airline": "TAP Air Portugal",   "flight_number": "TP1350", "price": 120, "duration": "2h 20m" },
+      { "airline": "Ryanair",            "flight_number": "FR5588", "price":  79, "duration": "2h 30m" }
+    ],
+    "CDG-OPO": [
+      { "airline": "Air France",         "flight_number": "AF1048", "price": 119, "duration": "2h 00m" },
+      { "airline": "TAP Air Portugal",   "flight_number": "TP0476", "price":  98, "duration": "2h 05m" },
+      { "airline": "Transavia",          "flight_number": "TO2215", "price":  65, "duration": "2h 10m" }
+    ],
+    "MAD-OPO": [
+      { "airline": "Iberia",             "flight_number": "IB0345", "price":  89, "duration": "1h 20m" },
+      { "airline": "Vueling",            "flight_number": "VY4321", "price":  65, "duration": "1h 15m" },
+      { "airline": "Ryanair",            "flight_number": "FR2219", "price":  45, "duration": "1h 25m" }
+    ],
+    "LIS-OPO": [
+      { "airline": "TAP Air Portugal",   "flight_number": "TP0401", "price":  45, "duration": "0h 55m" },
+      { "airline": "Ryanair",            "flight_number": "FR1234", "price":  29, "duration": "1h 05m" }
+    ],
+    "AMS-OPO": [
+      { "airline": "KLM",                "flight_number": "KL1707", "price": 135, "duration": "2h 40m" },
+      { "airline": "TAP Air Portugal",   "flight_number": "TP0489", "price": 109, "duration": "2h 35m" },
+      { "airline": "EasyJet",            "flight_number": "U24553", "price":  79, "duration": "2h 45m" }
+    ]
+  }
+}

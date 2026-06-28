@@ -1,3 +1,5 @@
 google-adk
-# Or, if you hand-roll the loop instead of using ADK:
 google-genai
+pydantic>=2
+python-dotenv
+pytest

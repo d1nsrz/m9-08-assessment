@@ -1,0 +1,47 @@
+{
+  "_comment": "Mock hotel data for the Trip Concierge Agent",
+  "destinations": {
+    "porto": [
+      {
+        "name": "Ribeira Square Hotel",
+        "price_per_night": 95,
+        "rating": 4.7,
+        "category": "4-star",
+        "amenities": ["breakfast included", "wifi", "river view", "bar"],
+        "location": "Ribeira district"
+      },
+      {
+        "name": "Porto AS 1829 Hotel",
+        "price_per_night": 110,
+        "rating": 4.5,
+        "category": "4-star",
+        "amenities": ["breakfast included", "wifi", "bar", "spa"],
+        "location": "Historic centre"
+      },
+      {
+        "name": "The Lodge Hotel",
+        "price_per_night": 85,
+        "rating": 4.3,
+        "category": "4-star",
+        "amenities": ["wifi", "pool", "restaurant", "gym"],
+        "location": "Vila Nova de Gaia"
+      },
+      {
+        "name": "Maison Particuliere Porto",
+        "price_per_night": 72,
+        "rating": 4.1,
+        "category": "boutique",
+        "amenities": ["wifi", "breakfast included", "garden"],
+        "location": "Bonfim district"
+      },
+      {
+        "name": "YES Porto Hostel",
+        "price_per_night": 28,
+        "rating": 4.6,
+        "category": "hostel",
+        "amenities": ["wifi", "common kitchen", "rooftop bar", "lockers"],
+        "location": "City centre"
+      }
+    ]
+  }
+}
